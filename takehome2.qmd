@@ -1,0 +1,11 @@
+---
+title: "Takehome02"
+author: "Chen Yiman"
+date: 29 Jan 2023
+execute:
+  eval: true
+  echo: true
+  warning: false
+format: html
+editor: visual
+---
