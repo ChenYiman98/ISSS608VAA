@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "inclass03.html",
+    "href": "inclass03.html",
+    "title": "in-class Exercise 3",
+    "section": "",
+    "text": "Installing and loading R packages\nTwo packages will be installed and loaded\nThey are ggraph and tidyverse\n\npacman::p_load(tidyverse,ggraph)\n\nimport data\n\nexam_data <- read.csv(\"/Users/chenyiman/ChenYiman/demo0115/ChenYiman98/0122VAA/inclass/data/Exam_data.csv\")\n\n\nggplot(data= exam_data,\n          aes(x = MATHS))+\n    geom_dotplot(dotsize = 0.5)"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "inclass03/inclass03.html",
+    "href": "inclass03/inclass03.html",
+    "title": "in-class Exercise 3",
+    "section": "",
+    "text": "Installing and loading R packages\nTwo packages will be installed and loaded\nThey are ggraph and tidyverse\n\npacman::p_load(tidyverse,ggraph)\n\nimport data\n\nexam_data <- read.csv(\"data/Exam_data.csv\")\n\n\nggplot(data= exam_data,\n          aes(x = MATHS))+\n    geom_dotplot(dotsize = 0.5)"
+  },
+  {
+    "objectID": "inclass04/UntitledQMD.html",
+    "href": "inclass04/UntitledQMD.html",
+    "title": "0122VAA",
+    "section": "",
+    "text": "ssssssss"
+  }
+]

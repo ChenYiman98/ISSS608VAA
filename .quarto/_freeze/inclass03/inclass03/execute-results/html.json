@@ -1,0 +1,16 @@
+{
+  "hash": "6f7b43a4b24a6fec2bc1740a0b697135",
+  "result": {
+    "markdown": "---\ntitle: \"in-class Exercise 3\"\nauthor: \"Chen Yiman\"\ndate: 28 Jan 2023\ndate-modified: \"`r.Sys.Date()`\"\nexecute: \n  echo: true\n  eval: true\n  warning: false\nformat: html\neditor: visual\n---\n\n\nInstalling and loading R packages\n\nTwo packages will be installed and loaded\n\nThey are ggraph and tidyverse\n\n\n::: {.cell}\n\n```{.r .cell-code}\npacman::p_load(tidyverse,ggraph)\n```\n:::\n\n\nimport data\n\n\n::: {.cell}\n\n```{.r .cell-code}\nexam_data <- read.csv(\"data/Exam_data.csv\")\n```\n:::\n\n::: {.cell}\n\n```{.r .cell-code}\nggplot(data= exam_data,\n          aes(x = MATHS))+\n    geom_dotplot(dotsize = 0.5)\n```\n\n::: {.cell-output-display}\n![](inclass03_files/figure-html/unnamed-chunk-3-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "inclass03_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
