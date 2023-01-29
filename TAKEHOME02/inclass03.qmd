@@ -1,0 +1,34 @@
+---
+title: "in-class Exercise 3"
+author: "Chen Yiman"
+date: 28 Jan 2023
+date-modified: "`r.Sys.Date()`"
+execute: 
+  echo: true
+  eval: true
+  warning: false
+format: html
+editor: visual
+---
+
+Installing and loading R packages
+
+Two packages will be installed and loaded
+
+They are ggraph and tidyverse
+
+```{r}
+pacman::p_load(tidyverse,ggraph)
+```
+
+import data
+
+```{r}
+exam_data <- read.csv("data/Exam_data.csv")
+```
+
+```{r}
+ggplot(data= exam_data,
+          aes(x = MATHS))+
+    geom_dotplot(dotsize = 0.5)
+```
